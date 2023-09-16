@@ -1,0 +1,41 @@
+.form {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.formInput {
+    margin-right: 16px;
+    background-color: #7f8c8d;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.formInput:focus,
+.genderSelect:focus {
+    outline-color: #bdc3c7;
+}
+
+.formInput::placeholder {
+    color: #fff;
+}
+
+.genderSelect {
+    background-color: #7f8c8d;
+    color: #fff;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    display: none;
+}
+
+.outputContainer {
+    margin-top: 40px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 16px;
+}
