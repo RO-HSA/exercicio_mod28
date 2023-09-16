@@ -10,6 +10,7 @@
     border: none;
     padding: 8px;
     border-radius: 8px;
+    color: #fff;
 }
 
 .formInput:focus,
